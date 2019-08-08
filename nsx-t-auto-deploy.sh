@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 if [ -z "$4" ]
   then
     echo "Arguments supplied not complete. Please provide the NSX-T release and build numbers."

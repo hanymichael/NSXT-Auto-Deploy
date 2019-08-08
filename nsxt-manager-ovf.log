@@ -1,0 +1,1512 @@
+2019-08-08T01:51:20.201-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [SSL_DB] Using /root/.ovftool.ssldb as SSL DB
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 2 (SIGINT)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 4 (SIGILL)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 6 (SIGABRT)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 8 (SIGFPE)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 15 (SIGTERM)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 1 (SIGHUP)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 3 (SIGQUIT)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 5 (SIGTRAP)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 9 (SIGKILL)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Subscribing to signal: 13 (SIGPIPE)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Initializing progress
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] OvfTool Version: VMware ovftool 4.3.0 (build-12320924)
+2019-08-08T01:51:20.244-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Using home directory: ./.ovftool
+2019-08-08T01:51:20.251-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Curl Version: 7.64.0
+2019-08-08T01:51:20.251-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Done initializing libs
+2019-08-08T01:51:20.251-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Determining source
+2019-08-08T01:51:20.251-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Determining target
+2019-08-08T01:51:20.251-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Getting source
+2019-08-08T01:51:20.252-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing URL...
+2019-08-08T01:51:20.252-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Constructing URL...
+2019-08-08T01:51:20.252-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing URL...
+2019-08-08T01:51:20.252-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Constructing URL...
+2019-08-08T01:51:20.253-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Constructing URL...
+2019-08-08T01:51:20.255-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Opening source
+2019-08-08T01:51:20.255-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] OvfPackageSourceBase::Open
+2019-08-08T01:51:20.255-07:00 trivia OVFTool[07187] [Originator@6876 sub=Default] OvaReaderFactory:  GetCurrent:0, offset:0, locator:nsx-unified-appliance-2.5.0.0.0.14309921.ovf
+2019-08-08T01:51:20.261-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2019-08-08T01:51:20.262-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] ApplyOvfTransformations with ovfRewriter started
+2019-08-08T01:51:20.262-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] ApplyExtraConfig started
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Setting extra config...
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Filtering extra config
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] The command line option --allowExtraConfig is specified: true
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] The command line option --exportFlags=extraconfig is specified: false
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Whitelist allowed extra config: key=time.synchronize.continue
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Whitelist allowed extra config: key=time.synchronize.restore
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Whitelist allowed extra config: key=time.synchronize.resume.disk
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Whitelist allowed extra config: key=time.synchronize.shrink
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Whitelist allowed extra config: key=time.synchronize.tools.startup
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=ethernet0.rxDataRingEnabled
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=ethernet1.rxDataRingEnabled
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=ethernet2.rxDataRingEnabled
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=ethernet3.rxDataRingEnabled
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=isolation.tools.diskWiper.disable
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=isolation.tools.memSchedFakeSampleStats.disable
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=isolation.tools.diskShrink.disable
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=isolation.tools.vmxDnDVersionGet.disable
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=isolation.tools.unityActive.disable
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=isolation.tools.guestDnDVersionSet.disable
+2019-08-08T01:51:20.263-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] This extra config is allowed from command line option --allowExtraConfig: key=RemoteDisplay.maxConnections
+2019-08-08T01:51:20.264-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] OvfPackageSourceBase parsing message bundle
+2019-08-08T01:51:20.265-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2019-08-08T01:51:20.265-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Validating files
+2019-08-08T01:51:20.265-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Getting target
+2019-08-08T01:51:20.266-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Constructing URL...
+2019-08-08T01:51:20.266-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Connecting to vi host 192.168.110.20
+2019-08-08T01:51:20.266-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Skip SSL verification
+2019-08-08T01:51:20.267-07:00 verbose OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2019-08-08T01:51:20.267-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Found local version 6.7.2 by vmodl name vim.version.version14
+2019-08-08T01:51:20.268-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [IncConnectionCount] Number of connections to <cs p:00005616734bde10, TCP:192.168.110.20:443> incremented to 1
+2019-08-08T01:51:20.297-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:20.297-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Local version vim.version.version14 is compatible with remote version vim.version.version11; using remote version
+2019-08-08T01:51:20.297-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Using VIM API version: 6.5
+2019-08-08T01:51:20.304-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:20.304-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Determine if server is a standalone host or vpxd
+2019-08-08T01:51:20.304-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] VI API type: VirtualCenter
+2019-08-08T01:51:20.304-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Login to server based on username and password
+2019-08-08T01:51:20.304-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Setting VI connection message locale (via login) to: 
+2019-08-08T01:51:20.341-07:00 verbose OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000001] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2019-08-08T01:51:20.341-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000001] [IncConnectionCount] Number of connections to <cs p:00005616734bde10, TCP:192.168.110.20:443> incremented to 1
+2019-08-08T01:51:20.362-07:00 trivia OVFTool[07194] [Originator@6876 sub=HttpConnectionPool-000001] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.151-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.151-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Setup nfcService, used to get a ticket for uploading/downloading a disk.
+2019-08-08T01:51:21.157-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.157-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Get host or vc sslthumpprint.
+2019-08-08T01:51:21.158-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Keeping VI session alive
+2019-08-08T01:51:21.160-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.160-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Constructing URL...
+2019-08-08T01:51:21.160-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] SetupResourcePool on ViTarget
+2019-08-08T01:51:21.168-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.172-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.174-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.177-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.181-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.184-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.188-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.191-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.191-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Ovf converter is executing
+2019-08-08T01:51:21.192-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Starting Ovf convertion...
+2019-08-08T01:51:21.192-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] OVF source Descriptor: <?xml version="1.0" encoding="UTF-8"?>
+--> <ovf:Envelope xmlns="http://schemas.dmtf.org/ovf/envelope/1" xmlns:ovf="http://schemas.dmtf.org/ovf/envelope/1" xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData" xmlns:vmw="http://www.vmware.com/schema/ovf" xmlns:vssd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_VirtualSystemSettingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+-->   <References>
+-->     <File ovf:href="nsx-unified-appliance.vmdk" ovf:id="nsx-unified-appliance.vmdk_id" ovf:size="8652305408"/>
+-->   </References>
+-->   <DeploymentOptionSection>
+-->     <Info>The list of deployment options</Info>
+-->     <Configuration ovf:id="extra_small">
+-->       <Label ovf:msgid="config.extra_small.label">ExtraSmall</Label>
+-->       <Description ovf:msgid="config.extra_small.description">
+--> IMPORTANT: This configuration is only supported for the nsx-cloud-service-manager role.
+--> 
+--> This configuration requires the following:
+--> * 2 vCPU
+--> * 8GB RAM
+--> * 200GB Storage
+--> * VM hardware version 10 or greater (vSphere 5.5 or greater)
+-->       </Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="small">
+-->       <Label ovf:msgid="config.small.label">Small</Label>
+-->       <Description ovf:msgid="config.small.description">
+--> This configuration requires the following:
+--> * 4 vCPU
+--> * 16GB RAM
+--> * 200GB Storage
+--> * VM hardware version 10 or greater (vSphere 5.5 or greater)
+-->       </Description>
+-->     </Configuration>
+-->     <Configuration ovf:default="true" ovf:id="medium">
+-->       <Label ovf:msgid="config.medium.label">Medium</Label>
+-->       <Description ovf:msgid="config.medium.description">
+--> This configuration requires the following:
+--> * 6 vCPU
+--> * 24GB RAM
+--> * 200GB Storage
+--> * VM hardware version 10 or greater (vSphere 5.5 or greater)
+-->       </Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="large">
+-->       <Label ovf:msgid="config.large.label">Large</Label>
+-->       <Description ovf:msgid="config.large.description">
+--> This configuration requires the following:
+--> * 12 vCPU
+--> * 48GB RAM
+--> * 200GB Storage
+--> * VM hardware version 10 or greater (vSphere 5.5 or greater)
+-->       </Description>
+-->     </Configuration>
+-->   </DeploymentOptionSection>
+-->   <NetworkSection>
+-->     <Info>List of logical networks used in the package</Info>
+-->     <Network ovf:name="Network 1">
+-->       <Description>Network 1</Description>
+-->     </Network>
+-->   </NetworkSection>
+-->   <vmw:IpAssignmentSection ovf:required="false" vmw:protocols="IPv4,IPv6" vmw:schemes="">
+-->     <Info>Supported IP assignment schemes</Info>
+-->   </vmw:IpAssignmentSection>
+-->   <DiskSection>
+-->     <Info>List of the virtual disks and partitions needed</Info>
+-->     <Disk ovf:capacity="200" ovf:capacityAllocationUnits="byte * 2^30" ovf:diskId="system" ovf:fileRef="nsx-unified-appliance.vmdk_id" ovf:format="http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized" ovf:populatedSize="4428922880"/>
+-->   </DiskSection>
+-->   <VirtualSystem ovf:id="nsx-unified-appliance">
+-->     <Info>A virtual machine</Info>
+-->     <ProductSection ovf:required="false">
+-->       <Info>VM ISV branding information</Info>
+-->       <Product>nsx-unified-appliance</Product>
+-->       <Vendor>VMware, Inc</Vendor>
+-->       <!--
+-->             Version is the actual product version in the
+-->             form X.X.X.X where X is an unsigned 16-bit integer.
+--> 
+-->             FullVersion is a descriptive version string
+-->             including, for example, alpha or beta designations
+-->             and other release criteria.
+-->         -->
+--> 
+-->       <Version>2.5.0.0</Version>
+-->       <FullVersion>2.5.0.0.0.14309921</FullVersion>
+-->       <ProductUrl/>
+-->       <VendorUrl/>
+-->       <AppUrl>http://${vami.ip0.nsx-unified-appliance}/</AppUrl>
+-->       <Category>Application</Category>
+-->       <Property ovf:key="nsx_passwd_0" ovf:password="true" ovf:qualifiers="MinLen(12)" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="root.user.password.label">System Root User Password</Label>
+-->         <Description ovf:msgid="root.user.password.desc">The password for root user for this VM.
+--> Please follow the password complexity rule as below:
+-->     - minimum of 12 characters in length
+-->     - &gt;=1 uppercase character
+-->     - &gt;=1 lowercase character
+-->     - &gt;=1 numeric character
+-->     - &gt;=1 special character
+-->     - &gt;=5 unique characters
+-->     - default password complexity rules as enforced by the Linux PAM module
+-->     NOTE: Password strength validation will occur during VM boot.  If the password does not meet the above criteria then login as root user for the change password prompt to appear.
+-->       </Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_cli_passwd_0" ovf:password="true" ovf:qualifiers="MinLen(12)" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="cli.user.password.label">CLI &quot;admin&quot; User Password</Label>
+-->         <Description ovf:msgid="cli.user.password.desc">The password for default CLI user for this VM.
+--> Please follow the password complexity rule as below:
+-->     - minimum of 12 characters in length
+-->     - &gt;=1 uppercase character
+-->     - &gt;=1 lowercase character
+-->     - &gt;=1 numeric character
+-->     - &gt;=1 special character
+-->     - &gt;=5 unique characters
+-->     - default password complexity rules as enforced by the Linux PAM module
+-->     NOTE: Password strength validation will occur during VM boot.  If the password does not meet the above criteria then login as admin user for the change password prompt to appear.
+-->       </Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_cli_audit_passwd_0" ovf:password="true" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="cli.audit.user.password.label">CLI &quot;audit&quot; User Password</Label>
+-->         <Description ovf:msgid="cli.audit.user.password.desc">The password for audit CLI user for this VM.
+--> Please follow the password complexity rule as below:
+-->     - minimum of 12 characters in length
+-->     - &gt;=1 uppercase character
+-->     - &gt;=1 lowercase character
+-->     - &gt;=1 numeric character
+-->     - &gt;=1 special character
+-->     - &gt;=5 unique characters
+-->     - default password complexity rules as enforced by the Linux PAM module
+-->     NOTE: Password strength validation will occur during VM boot.  If the password does not meet the above criteria then login as admin user and use the NSX CLI command &quot;set user audit&quot; to change the audit user password.
+-->       </Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_cli_username" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="cli.user.username.label">CLI &quot;admin&quot; username (default: admin)</Label>
+-->         <Description ovf:msgid="cli.user.username.desc">Username of administrator user.</Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_cli_audit_username" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="cli.user.username.label">CLI &quot;audit&quot; username (default: audit)</Label>
+-->         <Description ovf:msgid="cli.user.username.desc">Username of auditor user.</Description>
+-->       </Property>
+-->       <Property ovf:key="extraPara" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="extraPara.label">Optional parameters</Label>
+-->         <Description ovf:msgid="extraPara.desc">For internal use only.
+-->       </Description>
+-->       </Property>
+-->       <Property ovf:key="vmc_type" ovf:qualifiers="ValueMap{&quot;aws&quot;,&quot;dimension&quot;,&quot;outposts&quot;,&quot;l2vcpp&quot;,&quot;l3vcpp&quot;}" ovf:type="string" ovf:userConfigurable="true" ovf:value="aws">
+-->         <Label ovf:msgid="vmc_type.label">VmcType</Label>
+-->         <Description ovf:msgid="vmc_type.desc">Vmc type definition</Description>
+-->       </Property>
+-->       <Property ovf:key="provider_type" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="provider_type.label">ProviderType</Label>
+-->         <Description ovf:msgid="provider_type.desc">Provider type definition, which is only valid if vmc_type is l2vcpp or l3vcpp.</Description>
+-->       </Property>
+-->       <Category ovf:msgid="network.ipv4.category">Network properties</Category>
+-->       <Property ovf:key="nsx_hostname" ovf:qualifiers="MinLen(1)" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="hostname.label">Hostname</Label>
+-->         <Description ovf:msgid="hostname.desc">The hostname for this VM.
+-->     NOTE: Underscores in hostname are not allowed.  If hostname contains underscore, then the appliance gets deployed with &apos;nsx-manager&apos; as hostname.
+-->         </Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_role" ovf:qualifiers="ValueMap{&quot;NSX Manager&quot;,&quot;nsx-cloud-service-manager&quot;}" ovf:type="string" ovf:userConfigurable="true" ovf:value="NSX Manager">
+-->         <Label ovf:msgid="nsx_role.label">Rolename</Label>
+-->         <Description ovf:msgid="nsx_role.desc">The role for this VM. Currently supports nsx-cloud-service-manager OR &apos;NSX Manager&apos; as rolename.
+-->         </Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_gateway_0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="network.ipv4.gateway.label">Default IPv4 Gateway</Label>
+-->         <Description ovf:msgid="network.ipv4.gateway.desc">The default gateway for this VM.</Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_ip_0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="network.ipv4.address.label">Management Network IPv4 Address</Label>
+-->         <Description ovf:msgid="network.ipv4.address.desc">The IPv4 Address for the first interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_netmask_0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="network.ipv4.netmask.label">Management Network Netmask</Label>
+-->         <Description ovf:msgid="network.ipv4.netmask.desc">The netmask for the first interface.</Description>
+-->       </Property>
+-->       <Category ovf:msgid="dns.category">DNS</Category>
+-->       <Property ovf:key="nsx_dns1_0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="dns.primary.label">DNS Server list</Label>
+-->         <Description ovf:msgid="dns.primary.desc">The space separated DNS server list for this VM (valid only if an IPv4 address is specified for the first interface).</Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_domain_0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="dns.domain.label">Domain Search List</Label>
+-->         <Description ovf:msgid="dns.domain.desc">The space separated domain search list for this VM (valid only if an IPv4 address is specified for the first interface).</Description>
+-->       </Property>
+-->       <Category ovf:msgid="services.configuration.category">Services Configuration</Category>
+-->       <Property ovf:key="nsx_ntp_0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="ntp.label">NTP Server List</Label>
+-->         <Description ovf:msgid="ntp.desc">The NTP server list(space separated) for this VM.</Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_isSSHEnabled" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="false">
+-->         <Label ovf:msgid="ssh.label">Enable SSH</Label>
+-->         <Description ovf:msgid="ssh.desc">Enabling SSH service is not recommended for security reasons.</Description>
+-->       </Property>
+-->       <Property ovf:key="nsx_allowSSHRootLogin" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="false">
+-->         <Label ovf:msgid="ssh.label">Allow root SSH logins</Label>
+-->         <Description ovf:msgid="ssh.desc">Allowing root SSH logins is not recommended for security reasons.</Description>
+-->       </Property>
+-->       <Category ovf:msgid="internal.properties.category">Internal Properties - Do not set these parameters.</Category>
+-->       <Property ovf:key="mpIp" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="mpIp.label">Manager IP</Label>
+-->         <Description ovf:msgid="mpIp.desc">For internal use only. Do not set this parameter.
+-->         </Description>
+-->       </Property>
+-->       <Property ovf:key="mpToken" ovf:password="true" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="mpToken.label">Manager Token</Label>
+-->         <Description ovf:msgid="mpToken.desc">For internal use only. Do not set this parameter.
+-->         </Description>
+-->       </Property>
+-->       <Property ovf:key="mpThumbprint" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="mpThumbprint.label">Manager Thumbprint</Label>
+-->         <Description ovf:msgid="mpThumbprint.desc">For internal use only. Do not set this parameter.
+-->         </Description>
+-->       </Property>
+-->       <Property ovf:key="mpNodeId" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="mpNodeId.label">Manager Node ID</Label>
+-->         <Description ovf:msgid="mpNodeId.desc">For internal use only. Do not set this parameter.
+-->         </Description>
+-->       </Property>
+-->       <Property ovf:key="mpClusterId" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label ovf:msgid="mpClusterId.label">Cluster ID of First Manager Cluster</Label>
+-->         <Description ovf:msgid="mpClusterId.desc">For internal use only. Do not set this parameter.
+-->         </Description>
+-->       </Property>
+-->     </ProductSection>
+-->     <ProductSection ovf:class="vami" ovf:instance="nsx-unified-appliance" ovf:required="false">
+-->       <Info>VAMI Properties</Info>
+-->     </ProductSection>
+-->     <ProductSection ovf:class="vm" ovf:required="false">
+-->       <Info>VM specific properties</Info>
+-->     </ProductSection>
+-->     <AnnotationSection>
+-->       <Info/>
+-->       <Annotation/>
+-->     </AnnotationSection>
+-->     <OperatingSystemSection ovf:id="94" ovf:version="" vmw:osType="ubuntu64Guest">
+-->       <Info>Guest Operating System</Info>
+-->       <Description>Ubuntu 16.04 64bit</Description>
+-->     </OperatingSystemSection>
+-->     <VirtualHardwareSection ovf:required="false" ovf:transport="com.vmware.guestInfo">
+-->       <Info>Virtual Hardware Requirements</Info>
+-->       <System>
+-->         <vssd:ElementName>Virtual Hardware Family</vssd:ElementName>
+-->         <vssd:InstanceID>0</vssd:InstanceID>
+-->         <vssd:VirtualSystemType>vmx-13 vmx-11 vmx-10</vssd:VirtualSystemType>
+-->       </System>
+-->       <Item ovf:configuration="extra_small">
+-->         <rasd:AllocationUnits>hertz * 10^9</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2 virtual CPU</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:Reservation>2</rasd:Reservation>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>2</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="small">
+-->         <rasd:AllocationUnits>hertz * 10^9</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4 virtual CPU</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:Reservation>4</rasd:Reservation>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>4</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="medium">
+-->         <rasd:AllocationUnits>hertz * 10^9</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">6 virtual CPU</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:Reservation>6</rasd:Reservation>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>6</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="large">
+-->         <rasd:AllocationUnits>hertz * 10^9</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">12 virtual CPU</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:Reservation>12</rasd:Reservation>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>12</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="extra_small">
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">8192 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:Reservation>8192</rasd:Reservation>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>8192</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="small">
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">16384 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:Reservation>16384</rasd:Reservation>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>16384</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="medium">
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">24576 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:Reservation>24576</rasd:Reservation>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>24576</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="large">
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">49152 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:Reservation>49152</rasd:Reservation>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>49152</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:Connection>Network 1</rasd:Connection>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Ethernet adapter on vmnet</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">3</rasd:InstanceID>
+-->         <rasd:ResourceSubType>VmxNet3</rasd:ResourceSubType>
+-->         <rasd:ResourceType>10</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">0</rasd:Address>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">SCSI Controller 0  - lsilogic</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4</rasd:InstanceID>
+-->         <rasd:ResourceSubType>lsilogic</rasd:ResourceSubType>
+-->         <rasd:ResourceType>6</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Harddisk 1</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/disk/system</rasd:HostResource>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">5</rasd:InstanceID>
+-->         <rasd:Parent>4</rasd:Parent>
+-->         <rasd:ResourceType>17</rasd:ResourceType>
+-->       </Item>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.syncTimeWithHost" vmw:value="false"/>
+-->       <vmw:ExtraConfig vmw:key="time.synchronize.continue" vmw:value="false"/>
+-->       <vmw:ExtraConfig vmw:key="time.synchronize.restore" vmw:value="false"/>
+-->       <vmw:ExtraConfig vmw:key="time.synchronize.resume.disk" vmw:value="false"/>
+-->       <vmw:ExtraConfig vmw:key="time.synchronize.shrink" vmw:value="false"/>
+-->       <vmw:ExtraConfig vmw:key="time.synchronize.tools.startup" vmw:value="false"/>
+-->       <vmw:ExtraConfig vmw:key="ethernet0.rxDataRingEnabled" vmw:value="0"/>
+-->       <vmw:ExtraConfig vmw:key="ethernet1.rxDataRingEnabled" vmw:value="0"/>
+-->       <vmw:ExtraConfig vmw:key="ethernet2.rxDataRingEnabled" vmw:value="0"/>
+-->       <vmw:ExtraConfig vmw:key="ethernet3.rxDataRingEnabled" vmw:value="0"/>
+-->       <vmw:ExtraConfig vmw:key="isolation.tools.diskWiper.disable" vmw:value="true"/>
+-->       <vmw:ExtraConfig vmw:key="isolation.tools.memSchedFakeSampleStats.disable" vmw:value="true"/>
+-->       <vmw:ExtraConfig vmw:key="isolation.tools.diskShrink.disable" vmw:value="true"/>
+-->       <vmw:ExtraConfig vmw:key="isolation.tools.vmxDnDVersionGet.disable" vmw:value="true"/>
+-->       <vmw:ExtraConfig vmw:key="isolation.tools.unityActive.disable" vmw:value="true"/>
+-->       <vmw:ExtraConfig vmw:key="isolation.tools.guestDnDVersionSet.disable" vmw:value="true"/>
+-->             <vmw:ExtraConfig vmw:key="RemoteDisplay.maxConnections" vmw:value="1"/>
+-->     </VirtualHardwareSection>
+-->   </VirtualSystem>
+--> </ovf:Envelope>
+2019-08-08T01:51:21.193-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Vi4Target put descriptor
+2019-08-08T01:51:21.193-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] SetupDatastore on ViTarget
+2019-08-08T01:51:21.198-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.201-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.206-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.210-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.213-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.216-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.220-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.223-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.227-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.231-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.234-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.238-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.240-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.243-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.247-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.251-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.251-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] SetupHostSystem on ViTarget
+2019-08-08T01:51:21.253-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.258-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.258-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] SetupVmFolder on ViTarget
+2019-08-08T01:51:21.261-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.261-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] SetupNetwork on ViTarget
+2019-08-08T01:51:21.483-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.483-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the networks from the ConfigTarget...
+2019-08-08T01:51:21.483-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the opaque networks from the ConfigTarget...
+2019-08-08T01:51:21.483-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the DVPs from the ConfigTarget...
+2019-08-08T01:51:21.483-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Found uplink portgroups 'DSwitch-CAI-DC-A-DVUplinks-84'. Ignored.
+2019-08-08T01:51:21.487-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.492-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.495-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.495-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Edge-Net-VLAN50] = DPortGroup-CAI-Edge-Net-VLAN50
+2019-08-08T01:51:21.499-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.504-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.506-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.506-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Edge-VPN-Uplink] = DPortGroup-CAI-Edge-VPN-Uplink
+2019-08-08T01:51:21.508-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.513-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.515-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.515-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Edge-Net01] = DPortGroup-CAI-Edge-Net01
+2019-08-08T01:51:21.518-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.521-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.524-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.524-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Edge-Net-VLAN80] = DPortGroup-CAI-Edge-Net-VLAN80
+2019-08-08T01:51:21.526-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.529-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.532-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.532-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[ToR-CAI-Edge-Net-TRUNK-VLANs55-59] = ToR-CAI-Edge-Net-TRUNK-VLANs55-59
+2019-08-08T01:51:21.536-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.539-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.542-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.542-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-ProdNet01] = DPortGroup-CAI-ProdNet01
+2019-08-08T01:51:21.546-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.551-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.554-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.554-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Edge-Net-VLAN70] = DPortGroup-CAI-Edge-Net-VLAN70
+2019-08-08T01:51:21.557-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.561-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.564-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.564-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Arista-vUplink] = DPortGroup-CAI-Arista-vUplink
+2019-08-08T01:51:21.566-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.571-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.574-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.574-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-Edge-Net-VLAN60] = DPortGroup-CAI-Edge-Net-VLAN60
+2019-08-08T01:51:21.574-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Found uplink portgroups 'DSwitch-CAI-DVUplinks-15'. Ignored.
+2019-08-08T01:51:21.576-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.579-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.583-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.583-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-VMkernels] = DPortGroup-VMkernels
+2019-08-08T01:51:21.586-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.590-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.593-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.593-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-VM-Management-Networks] = DPortGroup-CAI-VM-Management-Networks
+2019-08-08T01:51:21.596-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.599-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.602-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.602-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-3-sid-5002-HBE-Transport-VXLAN] = vxw-dvs-15-universalwire-3-sid-5002-HBE-Transport-VXLAN
+2019-08-08T01:51:21.605-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.608-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.611-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.611-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-vmknicPg-dvs-15-0-d1a53e9e-cad7-4fcf-9fa4-93f7f4637af9] = vxw-vmknicPg-dvs-15-0-d1a53e9e-cad7-4fcf-9fa4-93f7f4637af9
+2019-08-08T01:51:21.613-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.618-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.620-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.620-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-2-sid-5001-CAI-Transport-VXLAN] = vxw-dvs-15-universalwire-2-sid-5001-CAI-Transport-VXLAN
+2019-08-08T01:51:21.623-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.626-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.629-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.629-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-23-sid-5008-RoutedCAITest01-f10d7e74-d18a-4ff8-b296-530] = vxw-dvs-15-universalwire-23-sid-5008-RoutedCAITest01-f10d7e74-d18a-4ff8-b296-530
+2019-08-08T01:51:21.632-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.635-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.638-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.638-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-1-sid-5000-Universal-Logical-Switch] = vxw-dvs-15-universalwire-1-sid-5000-Universal-Logical-Switch
+2019-08-08T01:51:21.640-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.645-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.647-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.647-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-4-sid-5003-DB-Tier-LS] = vxw-dvs-15-universalwire-4-sid-5003-DB-Tier-LS
+2019-08-08T01:51:21.650-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.653-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.656-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.656-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-5-sid-5004-App-Tier-LS] = vxw-dvs-15-universalwire-5-sid-5004-App-Tier-LS
+2019-08-08T01:51:21.659-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.662-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.665-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.665-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-virtualwire-5-sid-10003-CAI-Transport--VXLAN-2-Local-Multi-Edge] = vxw-dvs-15-virtualwire-5-sid-10003-CAI-Transport--VXLAN-2-Local-Multi-Edge
+2019-08-08T01:51:21.668-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.671-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.676-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.676-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-virtualwire-1-sid-10000-dvs.VCDVSOrgNet-Routed-CAI-bb465f7d-64dd-43db] = vxw-dvs-15-virtualwire-1-sid-10000-dvs.VCDVSOrgNet-Routed-CAI-bb465f7d-64dd-43db
+2019-08-08T01:51:21.679-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.684-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.687-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.687-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-29-sid-5005-vCD-HV-Tenant-ULS] = vxw-dvs-15-universalwire-29-sid-5005-vCD-HV-Tenant-ULS
+2019-08-08T01:51:21.690-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.693-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.696-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.696-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-virtualwire-2-sid-10001-L2VPN-LS] = vxw-dvs-15-virtualwire-2-sid-10001-L2VPN-LS
+2019-08-08T01:51:21.698-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.702-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.704-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.704-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-virtualwire-3-sid-10002-CAI-Trans-2-Local-DLR] = vxw-dvs-15-virtualwire-3-sid-10002-CAI-Trans-2-Local-DLR
+2019-08-08T01:51:21.707-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.711-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.713-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.713-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-CAI-L2VPN-Trunk] = DPortGroup-CAI-L2VPN-Trunk
+2019-08-08T01:51:21.716-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.719-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.721-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.721-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-virtualwire-6-sid-10004-CAI-MEdge-App-LS] = vxw-dvs-15-virtualwire-6-sid-10004-CAI-MEdge-App-LS
+2019-08-08T01:51:21.724-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.727-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.729-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.729-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-ContainersExternal] = DPortGroup-ContainersExternal
+2019-08-08T01:51:21.732-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.735-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.738-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.738-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-ContainersBridge] = DPortGroup-ContainersBridge
+2019-08-08T01:51:21.740-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.744-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.746-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.746-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[vxw-dvs-15-universalwire-45-sid-5006-vSphere-Integrated-Containers-ULS] = vxw-dvs-15-universalwire-45-sid-5006-vSphere-Integrated-Containers-ULS
+2019-08-08T01:51:21.749-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.752-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.754-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.754-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[DPortGroup-VCSA-Management] = DPortGroup-VCSA-Management
+2019-08-08T01:51:21.754-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] SetupDiskType on ViTarget
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] ovfNetworkNames='Network 1'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Arista-vUplink'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Edge-Net-VLAN50'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Edge-Net-VLAN60'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Edge-Net-VLAN70'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Edge-Net-VLAN80'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Edge-Net01'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-Edge-VPN-Uplink'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-L2VPN-Trunk'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-ProdNet01'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-CAI-VM-Management-Networks'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-ContainersBridge'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-ContainersExternal'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-VCSA-Management'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='DPortGroup-VMkernels'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='ToR-CAI-Edge-Net-TRUNK-VLANs55-59'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-1-sid-5000-Universal-Logical-Switch'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-2-sid-5001-CAI-Transport-VXLAN'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-23-sid-5008-RoutedCAITest01-f10d7e74-d18a-4ff8-b296-530'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-29-sid-5005-vCD-HV-Tenant-ULS'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-3-sid-5002-HBE-Transport-VXLAN'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-4-sid-5003-DB-Tier-LS'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-45-sid-5006-vSphere-Integrated-Containers-ULS'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-universalwire-5-sid-5004-App-Tier-LS'
+2019-08-08T01:51:21.756-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-virtualwire-1-sid-10000-dvs.VCDVSOrgNet-Routed-CAI-bb465f7d-64dd-43db'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-virtualwire-2-sid-10001-L2VPN-LS'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-virtualwire-3-sid-10002-CAI-Trans-2-Local-DLR'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-virtualwire-5-sid-10003-CAI-Transport--VXLAN-2-Local-Multi-Edge'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-dvs-15-virtualwire-6-sid-10004-CAI-MEdge-App-LS'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='vxw-vmknicPg-dvs-15-0-d1a53e9e-cad7-4fcf-9fa4-93f7f4637af9'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] Mapped netowrk 'Network 1' to 'DPortGroup-CAI-VM-Management-Networks'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] Validate network mapping: src = 'Network 1', dst = 'DPortGroup-CAI-VM-Management-Networks'
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing version 6.5...
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsed product version1: 6.5 -> 6.5.0
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing version 4.1...
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing version 6.5...
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsed product version1: 6.5 -> 6.5.0
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing version 5.0...
+2019-08-08T01:51:21.757-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsed product version2: 5.0 -> 5.0.0
+2019-08-08T01:51:21.920-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.921-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] CreateImportSpecResult:
+--> (vim.OvfManager.CreateImportSpecResult) {
+-->    importSpec = (vim.vm.VmImportSpec) {
+-->       entityConfig = (vim.vApp.EntityConfigInfo) {
+-->          key = <unset>, 
+-->          tag = "NSX-T-Appliance01-2.5.0.0.0-14309911", 
+-->          startOrder = <unset>, 
+-->          startDelay = <unset>, 
+-->          waitingForGuest = <unset>, 
+-->          startAction = <unset>, 
+-->          stopDelay = <unset>, 
+-->          stopAction = <unset>, 
+-->          destroyWithParent = <unset>
+-->       }, 
+-->       instantiationOst = (vim.OvfConsumer.OstNode) {
+-->          id = "", 
+-->          type = "envelope", 
+-->          section = <unset>, 
+-->          child = (vim.OvfConsumer.OstNode) [
+-->             (vim.OvfConsumer.OstNode) {
+-->                id = "NSX-T-Appliance01-2.5.0.0.0-14309911", 
+-->                type = "virtualSystem", 
+-->                section = <unset>, 
+-->                child = <unset>, 
+-->                entity = <unset>
+-->             }
+-->          ], 
+-->          entity = <unset>
+-->       }, 
+-->       configSpec = (vim.vm.ConfigSpec) {
+-->          changeVersion = <unset>, 
+-->          name = "NSX-T-Appliance01-2.5.0.0.0-14309911", 
+-->          version = "vmx-13", 
+-->          createDate = <unset>, 
+-->          uuid = <unset>, 
+-->          instanceUuid = <unset>, 
+-->          npivNodeWorldWideName = <unset>, 
+-->          npivPortWorldWideName = <unset>, 
+-->          npivWorldWideNameType = <unset>, 
+-->          npivDesiredNodeWwns = <unset>, 
+-->          npivDesiredPortWwns = <unset>, 
+-->          npivTemporaryDisabled = <unset>, 
+-->          npivOnNonRdmDisks = <unset>, 
+-->          npivWorldWideNameOp = <unset>, 
+-->          locationId = <unset>, 
+-->          guestId = "ubuntu64Guest", 
+-->          alternateGuestName = <unset>, 
+-->          annotation = "", 
+-->          files = (vim.vm.FileInfo) {
+-->             vmPathName = "[NFS01]", 
+-->             snapshotDirectory = <unset>, 
+-->             suspendDirectory = <unset>, 
+-->             logDirectory = <unset>, 
+-->             ftMetadataDirectory = <unset>
+-->          }, 
+-->          tools = (vim.vm.ToolsConfigInfo) {
+-->             toolsVersion = <unset>, 
+-->             toolsInstallType = <unset>, 
+-->             afterPowerOn = true, 
+-->             afterResume = true, 
+-->             beforeGuestStandby = true, 
+-->             beforeGuestShutdown = true, 
+-->             beforeGuestReboot = true, 
+-->             toolsUpgradePolicy = <unset>, 
+-->             pendingCustomization = <unset>, 
+-->             customizationKeyId = (vim.encryption.CryptoKeyId) null, 
+-->             syncTimeWithHost = false, 
+-->             lastInstallInfo = (vim.vm.ToolsConfigInfo.ToolsLastInstallInfo) null, 
+-->             upgradeRebootPredict = <unset>
+-->          }, 
+-->          flags = (vim.vm.FlagInfo) null, 
+-->          consolePreferences = (vim.vm.ConsolePreferences) null, 
+-->          powerOpInfo = (vim.vm.DefaultPowerOpInfo) null, 
+-->          numCPUs = 4, 
+-->          numCoresPerSocket = 1, 
+-->          memoryMB = 16384, 
+-->          memoryHotAddEnabled = <unset>, 
+-->          cpuHotAddEnabled = <unset>, 
+-->          cpuHotRemoveEnabled = <unset>, 
+-->          virtualICH7MPresent = <unset>, 
+-->          virtualSMCPresent = <unset>, 
+-->          deviceChange = (vim.vm.device.VirtualDeviceSpec) [
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = "create", 
+-->                device = (vim.vm.device.VirtualDisk) {
+-->                   key = -101, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) {
+-->                      fileName = "", 
+-->                      datastore = <unset>, 
+-->                      backingObjectId = <unset>, 
+-->                      diskMode = "persistent", 
+-->                      split = false, 
+-->                      writeThrough = <unset>, 
+-->                      thinProvisioned = true, 
+-->                      eagerlyScrub = false, 
+-->                      uuid = <unset>, 
+-->                      contentId = <unset>, 
+-->                      changeId = <unset>, 
+-->                      parent = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) null, 
+-->                      deltaDiskFormat = <unset>, 
+-->                      digestEnabled = <unset>, 
+-->                      deltaGrainSize = <unset>, 
+-->                      deltaDiskFormatVariant = <unset>, 
+-->                      sharing = <unset>, 
+-->                      keyId = (vim.encryption.CryptoKeyId) null
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = -100, 
+-->                   unitNumber = 0, 
+-->                   capacityInKB = 209715200, 
+-->                   capacityInBytes = <unset>, 
+-->                   shares = (vim.SharesInfo) null, 
+-->                   storageIOAllocation = (vim.StorageResourceManager.IOAllocationInfo) null, 
+-->                   diskObjectId = <unset>, 
+-->                   vFlashCacheConfigInfo = (vim.vm.device.VirtualDisk.VFlashCacheConfigInfo) null, 
+-->                   iofilter = <unset>, 
+-->                   vDiskId = (vim.vslm.ID) null, 
+-->                   virtualDiskFormat = <unset>, 
+-->                   nativeUnmanagedLinkedClone = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualLsiLogicController) {
+-->                   key = -100, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDevice.BackingInfo) null, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = false, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   busNumber = 0, 
+-->                   device = (int) [
+-->                      -101
+-->                   ], 
+-->                   hotAddRemove = <unset>, 
+-->                   sharedBus = "noSharing", 
+-->                   scsiCtlrUnitNumber = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualVmxnet3) {
+-->                   dynamicProperty = <unset>, 
+-->                   key = -102, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualEthernetCard.DistributedVirtualPortBackingInfo) {
+-->                      port = (vim.dvs.PortConnection) {
+-->                         switchUuid = "b1 75 16 50 72 84 37 a8-3f 1b 18 e4 55 d0 97 0d", 
+-->                         portgroupKey = "dvportgroup-18", 
+-->                         portKey = <unset>, 
+-->                         connectionCookie = <unset>
+-->                      }
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = true, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   addressType = "generated", 
+-->                   macAddress = <unset>, 
+-->                   wakeOnLanEnabled = <unset>, 
+-->                   resourceAllocation = (vim.vm.device.VirtualEthernetCard.ResourceAllocation) null, 
+-->                   externalId = <unset>, 
+-->                   uptCompatibilityEnabled = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }
+-->          ], 
+-->          cpuAllocation = (vim.ResourceAllocationInfo) {
+-->             reservation = 4000, 
+-->             expandableReservation = <unset>, 
+-->             limit = -1, 
+-->             shares = (vim.SharesInfo) {
+-->                shares = -1, 
+-->                level = "normal"
+-->             }, 
+-->             overheadLimit = <unset>
+-->          }, 
+-->          memoryAllocation = (vim.ResourceAllocationInfo) {
+-->             reservation = 16384, 
+-->             expandableReservation = <unset>, 
+-->             limit = -1, 
+-->             shares = (vim.SharesInfo) {
+-->                shares = -1, 
+-->                level = "normal"
+-->             }, 
+-->             overheadLimit = <unset>
+-->          }, 
+-->          latencySensitivity = (vim.LatencySensitivity) null, 
+-->          cpuAffinity = (vim.vm.AffinityInfo) null, 
+-->          memoryAffinity = (vim.vm.AffinityInfo) null, 
+-->          networkShaper = (vim.vm.NetworkShaperInfo) null, 
+-->          cpuFeatureMask = <unset>, 
+-->          extraConfig = (vim.option.OptionValue) [
+-->             (vim.option.OptionValue) {
+-->                key = "time.synchronize.continue", 
+-->                value = "false"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "time.synchronize.restore", 
+-->                value = "false"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "time.synchronize.resume.disk", 
+-->                value = "false"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "time.synchronize.shrink", 
+-->                value = "false"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "time.synchronize.tools.startup", 
+-->                value = "false"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "ethernet0.rxDataRingEnabled", 
+-->                value = "0"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "ethernet1.rxDataRingEnabled", 
+-->                value = "0"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "ethernet2.rxDataRingEnabled", 
+-->                value = "0"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "ethernet3.rxDataRingEnabled", 
+-->                value = "0"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "isolation.tools.diskWiper.disable", 
+-->                value = "true"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "isolation.tools.memSchedFakeSampleStats.disable", 
+-->                value = "true"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "isolation.tools.diskShrink.disable", 
+-->                value = "true"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "isolation.tools.vmxDnDVersionGet.disable", 
+-->                value = "true"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "isolation.tools.unityActive.disable", 
+-->                value = "true"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "isolation.tools.guestDnDVersionSet.disable", 
+-->                value = "true"
+-->             }, 
+-->             (vim.option.OptionValue) {
+-->                key = "RemoteDisplay.maxConnections", 
+-->                value = "1"
+-->             }
+-->          ], 
+-->          swapPlacement = <unset>, 
+-->          bootOptions = (vim.vm.BootOptions) null, 
+-->          vAppConfig = (vim.vApp.VmConfigSpec) {
+-->             product = (vim.vApp.ProductSpec) [
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 0, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      name = "nsx-unified-appliance", 
+-->                      vendor = "VMware, Inc", 
+-->                      version = "2.5.0.0", 
+-->                      fullVersion = "2.5.0.0.0.14309921", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = "http://${vami.ip0.nsx-unified-appliance}/"
+-->                   }
+-->                }, 
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 1, 
+-->                      classId = "vami", 
+-->                      instanceId = "nsx-unified-appliance", 
+-->                      name = "", 
+-->                      vendor = "", 
+-->                      version = "", 
+-->                      fullVersion = "", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }, 
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 2, 
+-->                      classId = "vm", 
+-->                      instanceId = "", 
+-->                      name = "", 
+-->                      vendor = "", 
+-->                      version = "", 
+-->                      fullVersion = "", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }
+-->             ], 
+-->             property = (vim.vApp.PropertySpec) [
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 0, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_passwd_0", 
+-->                      category = "Application", 
+-->                      label = "System Root User Password", 
+-->                      type = "password(12..)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "VMware1!VMware1!", 
+-->                      description = "The password for root user for this VM.
+--> Please follow the password complexity rule as below:
+-->     - minimum of 12 characters in length
+-->     - >=1 uppercase character
+-->     - >=1 lowercase character
+-->     - >=1 numeric character
+-->     - >=1 special character
+-->     - >=5 unique characters
+-->     - default password complexity rules as enforced by the Linux PAM module
+-->     NOTE: Password strength validation will occur during VM boot.  If the password does not meet the above criteria then login as root user for the change password prompt to appear.
+-->       "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 1, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_cli_passwd_0", 
+-->                      category = "Application", 
+-->                      label = "CLI "admin" User Password", 
+-->                      type = "password(12..)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "VMware1!VMware1!", 
+-->                      description = "The password for default CLI user for this VM.
+--> Please follow the password complexity rule as below:
+-->     - minimum of 12 characters in length
+-->     - >=1 uppercase character
+-->     - >=1 lowercase character
+-->     - >=1 numeric character
+-->     - >=1 special character
+-->     - >=5 unique characters
+-->     - default password complexity rules as enforced by the Linux PAM module
+-->     NOTE: Password strength validation will occur during VM boot.  If the password does not meet the above criteria then login as admin user for the change password prompt to appear.
+-->       "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 2, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_cli_audit_passwd_0", 
+-->                      category = "Application", 
+-->                      label = "CLI "audit" User Password", 
+-->                      type = "password", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "********", 
+-->                      description = "The password for audit CLI user for this VM.
+--> Please follow the password complexity rule as below:
+-->     - minimum of 12 characters in length
+-->     - >=1 uppercase character
+-->     - >=1 lowercase character
+-->     - >=1 numeric character
+-->     - >=1 special character
+-->     - >=5 unique characters
+-->     - default password complexity rules as enforced by the Linux PAM module
+-->     NOTE: Password strength validation will occur during VM boot.  If the password does not meet the above criteria then login as admin user and use the NSX CLI command "set user audit" to change the audit user password.
+-->       "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 3, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_cli_username", 
+-->                      category = "Application", 
+-->                      label = "CLI "admin" username (default: admin)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Username of administrator user."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 4, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_cli_audit_username", 
+-->                      category = "Application", 
+-->                      label = "CLI "audit" username (default: audit)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Username of auditor user."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 5, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "extraPara", 
+-->                      category = "Application", 
+-->                      label = "Optional parameters", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "For internal use only.
+-->       "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 6, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "vmc_type", 
+-->                      category = "Application", 
+-->                      label = "VmcType", 
+-->                      type = "string["aws","dimension","outposts","l2vcpp","l3vcpp"]", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "aws", 
+-->                      value = "", 
+-->                      description = "Vmc type definition"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 7, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "provider_type", 
+-->                      category = "Application", 
+-->                      label = "ProviderType", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Provider type definition, which is only valid if vmc_type is l2vcpp or l3vcpp."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 8, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_hostname", 
+-->                      category = "Network properties", 
+-->                      label = "Hostname", 
+-->                      type = "string(1..)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "nsxtmgr01", 
+-->                      description = "The hostname for this VM.
+-->     NOTE: Underscores in hostname are not allowed.  If hostname contains underscore, then the appliance gets deployed with 'nsx-manager' as hostname.
+-->         "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 9, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_role", 
+-->                      category = "Network properties", 
+-->                      label = "Rolename", 
+-->                      type = "string["NSX Manager","nsx-cloud-service-manager"]", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "NSX Manager", 
+-->                      value = "NSX Manager", 
+-->                      description = "The role for this VM. Currently supports nsx-cloud-service-manager OR 'NSX Manager' as rolename.
+-->         "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 10, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_gateway_0", 
+-->                      category = "Network properties", 
+-->                      label = "Default IPv4 Gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "192.168.110.2", 
+-->                      description = "The default gateway for this VM."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 11, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_ip_0", 
+-->                      category = "Network properties", 
+-->                      label = "Management Network IPv4 Address", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "192.168.110.17", 
+-->                      description = "The IPv4 Address for the first interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 12, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_netmask_0", 
+-->                      category = "Network properties", 
+-->                      label = "Management Network Netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "255.255.255.0", 
+-->                      description = "The netmask for the first interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 13, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_dns1_0", 
+-->                      category = "DNS", 
+-->                      label = "DNS Server list", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "192.168.110.10", 
+-->                      description = "The space separated DNS server list for this VM (valid only if an IPv4 address is specified for the first interface)."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 14, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_domain_0", 
+-->                      category = "DNS", 
+-->                      label = "Domain Search List", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The space separated domain search list for this VM (valid only if an IPv4 address is specified for the first interface)."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 15, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_ntp_0", 
+-->                      category = "Services Configuration", 
+-->                      label = "NTP Server List", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "192.168.110.2", 
+-->                      description = "The NTP server list(space separated) for this VM."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 16, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_isSSHEnabled", 
+-->                      category = "Services Configuration", 
+-->                      label = "Enable SSH", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "False", 
+-->                      value = "True", 
+-->                      description = "Enabling SSH service is not recommended for security reasons."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 17, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "nsx_allowSSHRootLogin", 
+-->                      category = "Services Configuration", 
+-->                      label = "Allow root SSH logins", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "False", 
+-->                      value = "True", 
+-->                      description = "Allowing root SSH logins is not recommended for security reasons."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 18, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "mpIp", 
+-->                      category = "Internal Properties - Do not set these parameters.", 
+-->                      label = "Manager IP", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "For internal use only. Do not set this parameter.
+-->         "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 19, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "mpToken", 
+-->                      category = "Internal Properties - Do not set these parameters.", 
+-->                      label = "Manager Token", 
+-->                      type = "password", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "********", 
+-->                      description = "For internal use only. Do not set this parameter.
+-->         "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 20, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "mpThumbprint", 
+-->                      category = "Internal Properties - Do not set these parameters.", 
+-->                      label = "Manager Thumbprint", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "For internal use only. Do not set this parameter.
+-->         "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 21, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "mpNodeId", 
+-->                      category = "Internal Properties - Do not set these parameters.", 
+-->                      label = "Manager Node ID", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "For internal use only. Do not set this parameter.
+-->         "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 22, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "mpClusterId", 
+-->                      category = "Internal Properties - Do not set these parameters.", 
+-->                      label = "Cluster ID of First Manager Cluster", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "For internal use only. Do not set this parameter.
+-->         "
+-->                   }
+-->                }
+-->             ], 
+-->             ipAssignment = (vim.vApp.IPAssignmentInfo) {
+-->                supportedAllocationScheme = <unset>, 
+-->                ipAllocationPolicy = "fixedPolicy", 
+-->                supportedIpProtocol = (string) [
+-->                   "IPv4", 
+-->                   "IPv6"
+-->                ], 
+-->                ipProtocol = "IPv4"
+-->             }, 
+-->             eula = <unset>, 
+-->             ovfSection = <unset>, 
+-->             ovfEnvironmentTransport = (string) [
+-->                "com.vmware.guestInfo"
+-->             ], 
+-->             installBootRequired = false, 
+-->             installBootStopDelay = 0
+-->          }, 
+-->          ftInfo = (vim.vm.FaultToleranceConfigInfo) null, 
+-->          repConfig = (vim.vm.ReplicationConfigSpec) null, 
+-->          vAppConfigRemoved = <unset>, 
+-->          vAssertsEnabled = <unset>, 
+-->          changeTrackingEnabled = <unset>, 
+-->          firmware = <unset>, 
+-->          maxMksConnections = <unset>, 
+-->          guestAutoLockEnabled = <unset>, 
+-->          managedBy = (vim.ext.ManagedByInfo) null, 
+-->          memoryReservationLockedToMax = <unset>, 
+-->          nestedHVEnabled = <unset>, 
+-->          vPMCEnabled = <unset>, 
+-->          scheduledHardwareUpgradeInfo = (vim.vm.ScheduledHardwareUpgradeInfo) null, 
+-->          vmProfile = <unset>, 
+-->          messageBusTunnelEnabled = <unset>, 
+-->          crypto = (vim.encryption.CryptoSpec) null, 
+-->          migrateEncryption = <unset>
+-->       }, 
+-->       resPoolEntity = <unset>
+-->    }, 
+-->    fileItem = (vim.OvfManager.FileItem) [
+-->       (vim.OvfManager.FileItem) {
+-->          deviceId = "/NSX-T-Appliance01-2.5.0.0.0-14309911/VirtualLsiLogicController0:0", 
+-->          path = "nsx-unified-appliance.vmdk", 
+-->          compressionMethod = "", 
+-->          chunkSize = <unset>, 
+-->          size = 8652305408, 
+-->          cimType = 17, 
+-->          create = false
+-->       }
+-->    ], 
+-->    warning = <unset>, 
+-->    error = <unset>
+--> }
+--> 
+2019-08-08T01:51:21.927-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing version 6.5...
+2019-08-08T01:51:21.927-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsed product version1: 6.5 -> 6.5.0
+2019-08-08T01:51:21.927-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsing version 5.0...
+2019-08-08T01:51:21.927-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Parsed product version2: 5.0 -> 5.0.0
+2019-08-08T01:51:21.930-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.933-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.937-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.939-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.942-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.944-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.947-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.949-07:00 trivia OVFTool[07187] [Originator@6876 sub=HttpConnectionPool-000000] [PopPendingConnection] No pending connections to <cs p:00005616734bde10, TCP:192.168.110.20:443>
+2019-08-08T01:51:21.952-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Exception thrown: N5boost16exception_detail10clone_implINS0_19error_info_injectorI16OvfToolExceptionEEEE(Duplicate name 'NSX-T-Appliance01-2.5.0.0.0-14309911' on target. Use --overwrite option to delete it.)
+--> [context]zKq7AVECAQAAAJwAvAAMT1ZGVG9vbAAAxAQ2bGlidm1hY29yZS5zbwAAJDMcAIssGAHj/BRvdmZ0b29sLmJpbgAB44gqAdB+GAEqlxgBeZ8YAc/IHgEALxQC1SMCbGliYy5zby42AAGprhQ=[/context]
+2019-08-08T01:51:21.954-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Backtrace: 
+--> [backtrace begin] product: VMware Workstation, version: e.x.p, build: build-12320924, tag: OVFTool, cpu: x86_64, os: linux, buildType: release
+--> backtrace[00] libvmacore.so[0x003604C4]: Vmacore::System::Stacktrace::CaptureWork(unsigned int)
+--> backtrace[01] libvmacore.so[0x001C3324]: Vmacore::System::SystemFactory::CreateQuickBacktrace(Vmacore::Ref<Vmacore::System::Backtrace>&)
+--> backtrace[02] libvmacore.so[0x00182C8B]: Vmacore::Throwable::Throwable(std::string&&)
+--> backtrace[03] ovftool.bin[0x0014FCE3]
+--> backtrace[04] ovftool.bin[0x002A88E3]
+--> backtrace[05] ovftool.bin[0x00187ED0]
+--> backtrace[06] ovftool.bin[0x0018972A]
+--> backtrace[07] ovftool.bin[0x00189F79]
+--> backtrace[08] ovftool.bin[0x001EC8CF]
+--> backtrace[09] ovftool.bin[0x00142F00]
+--> backtrace[10] libc.so.6[0x000223D5]
+--> backtrace[11] ovftool.bin[0x0014AEA9]
+--> [backtrace end]
+2019-08-08T01:51:21.955-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] [Abort] started.
+2019-08-08T01:51:21.955-07:00 verbose OVFTool[07187] [Originator@6876 sub=Default] Destruction of ViTarget
